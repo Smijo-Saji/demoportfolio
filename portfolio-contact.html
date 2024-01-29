@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://classroomclipart.com/image/static7/preview/boy-changes-attitude-from-happy-to-upset-60315.gif"
+      type="image/gif"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/ce7b11e696.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="page-header">
+        <div class="logo">
+          <a href="#"></a>
+        </div>
+        <input type="checkbox" id="click" />
+
+        <label for="click" class="mainicon">
+          <div class="menu">
+            <i class="bx bx-menu"></i>
+          </div>
+        </label>
+        <ul>
+          <li><a href="index.html" style="--navAni: 1">Home</a></li>
+          <li><a href="portfolio-about.html" style="--navAni: 2">About</a></li>
+          <li><a href="portfolio-skill.html" style="--navAni: 3">Skills</a></li>
+          <li>
+            <a href="portfolio-portfolio.html" style="--navAni: 4">Portfolio</a>
+          </li>
+          <li><a href="#" class="active" style="--navAni: 5">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="contact">
+      <h1><span style="color: #f9532d">Contact -</span> Me</h1>
+      <div class="contact-main">
+        <div class="contact-info">
+          <br />
+          <br />
+          <h2>
+            <i class="fa-solid fa-phone" on></i>
+            +91 9645211753
+          </h2>
+          <br />
+          <h2>
+            <i class="fa-solid fa-envelope"></i>
+            smijosaji.2@gmail.com
+          </h2>
+          <br />
+          <div class="social-media">
+            <div>
+              <h3 style="color: #f9532d">Connect Me</h3>
+              <i class="fa-brands fa-whatsapp fa-2xl" onclick="whatsapp()"></i>
+              <i class="fa-brands fa-instagram fa-2xl" onclick="insta()"></i>
+              <i class="fa-brands fa-facebook fa-2xl" onclick="fb()"></i>
+              <i class="fa-brands fa-snapchat fa-2xl" onclick="snap()"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter fa-2xl" onclick="twitter()"></i>
+              <i class="fa-brands fa-telegram fa-2xl" onclick="telegram()"></i>
+              <i class="fa-brands fa-skype fa-2xl" onclick="skype()"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-github fa-2xl" onclick="git()"></i>
+              <i class="fa-brands fa-linkedin fa-2xl" onclick="linkedin()"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-discord fa-2xl" onclick="discord()"></i>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3><span style="color: #f9532d">Message -</span> Me</h3>
+          <form
+            target="_blank"
+            action="https://formsubmit.co/smijosaji.24@gmail.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              placeholder="Name"
+              name="name"
+              id="name"
+              autocomplete="off"
+              required
+            />
+            <br />
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              id="email"
+              autocomplete="off"
+              required
+            />
+            <br />
+            <textarea
+              placeholder="Message"
+              name="message"
+              id="message"
+              cols="44"
+              rows="10"
+              required
+            ></textarea>
+            <input type="hidden" name="_template" value="table" />
+            <br />
+            <input type="hidden" name="_captcha" value="false" />
+            <button id="btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      function whatsapp() {
+        window.open("https://wa.me/9645211753");
+      }
+      function insta() {
+        window.open(
+          "https://www.instagram.com/smijo_saji?igsh=Z2NzdHJudjg5bWNj"
+        );
+      }
+      function fb() {
+        window.open("https://www.facebook.com/sachu.saji.9638");
+      }
+      function snap() {
+        window.open(
+          "https://www.snapchat.com/add/smijo606?share_id=0I0urMDh-W8&locale=en-US"
+        );
+      }
+      function twitter() {
+        window.open("https://x.com/Smijo_24?t=6lJ6B2fhJuEBdNXlVZc_3w&s=08");
+      }
+      function telegram() {
+        window.open("https://t.me/Smijo_Saji");
+      }
+      function skype() {
+        window.open("https://join.skype.com/invite/qd7i0mYFzEKS");
+      }
+      function git() {
+        window.open("https://github.com/Smijo-Saji");
+      }
+      function linkedin() {
+        window.open(
+          "https://www.linkedin.com/in/smijo-saji-29b8ab244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        );
+      }
+      function discord() {
+        window.open("https://discordapp.com/users/754191489436745749");
+      }
+    </script>
+  </body>
+</html>
